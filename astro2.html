@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>astro_motion</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/astro2.css"> 
+</head>
+<body>
+    <video autoplay muted loop id="bg-video">
+        <source src="video/gfp-astro-timelapse.mp4" type="video/mp4">
+    </video>
+    <nav class="navbar">
+        <div class="navbar-brand"><h2>Astro Motion</h2></div>
+        <div id="myBtnContainer">
+            <div class="nav-link active" onclick="filterSelection('Home')"><span>Home</span>
+                <div class="circle"></div>
+            </div>
+            <div class="nav-link" onclick="filterSelection('Gallery')"><span>Gallery</span>
+                <div class="circle"></div>
+            </div>
+            <div class="nav-link" onclick="filterSelection('About')"><span>About</span>
+                <div class="circle"></div>
+            </div>
+            <div class="nav-link" onclick="filterSelection('Contact')"><span>Contact</span>
+                <div class="circle"></div>
+            </div>
+        </div>
+    </nav>
+    <section class="father">
+        <!-- /////////////sectin-one/////////////// -->
+        <section class="selected Home">
+            <section class="one">
+                <div class="container1">
+                    <div class="contant">
+                        <h2>Welcome to Astro Motion</h2>
+                        <p>This HTML template has a motion video background loop which is provided by
+                            <a rel="sponsored" href="https://getfreepictures.com" target="_blank">Get Free Pictures</a>. This is
+                            one-page responsive layout for your websites. Feel
+                            free to use this for a commercial purpose.
+                        </p>
+                        <p>You are not permitted to redistribute this template on your Free CSS collection websites.</p>
+                    </div>
+                    <div class="intro-right">
+                        <img src="img/home-img-1.jpg" alt="Image" class="intro-img-1">
+                        <img src="img/home-img-2.jpg" alt="Image" class="intro-img-2">
+                    </div>
+                    <div class="intro-circle-1"></div>
+                    <div class="intro-circle-2"></div>
+                    <div class="intro-circle-3"></div>
+                    <div class="intro-circle-4"></div>
+                </div>
+                <button class="text-center">
+                    View Gallery
+                </button>
+                <!-- <button class="selected" onclick="filterSelection('Gallery')">
+                    View Gallery
+                </button> -->
+            </section>
+        </section>
+
+        <!-- /////////////sectin-two/////////////// -->
+        <!-- /////////////sectin-two/////////////// -->
+        <section class="selected Gallery">
+            <section class="two">
+                <div class="container2">
+                    <div class="intro-circle-1"></div>
+                    <div class="intro-circle-2"></div>
+                    <figure class="effect-image">
+                        <img src="img/gallery-img-01.jpg" alt="Image">
+                        <figcaption>
+                            <div>
+                                <p class="effect-p">Julia dances in the deep dark</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="effect-image">
+                        <img src="img/gallery-img-02.jpg" alt="Image">
+                        <figcaption>
+                            <div>
+                                <p class="effect-p">Julia dances in the deep dark</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="effect-image">
+                        <img src="img/gallery-img-03.jpg" alt="Image">
+                        <figcaption>
+                            <div>
+                                <p class="effect-p">Julia dances in the deep dark</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="effect-image">
+                        <img src="img/gallery-img-04.jpg" alt="Image">
+                        <figcaption>
+                            <div>
+                                <p class="effect-p">Julia dances in the deep dark</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="effect-image">
+                        <img src="img/gallery-img-05.jpg" alt="Image">
+                        <figcaption>
+                            <div>
+                                <p class="effect-p">Julia dances in the deep dark</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                    <figure class="effect-image">
+                        <img src="img/gallery-img-06.jpg" alt="Image">
+                        <figcaption>
+                            <div>
+                                <p class="effect-p">Julia dances in the deep dark</p>
+                            </div>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- /////////////sectin-three/////////////// -->
+        <!-- /////////////sectin-three/////////////// -->
+        <!-- /////////////sectin-three/////////////// -->
+        <section class="selected About">
+            <section class="three">
+                <div class="container3">
+                    <div class="intro-circle-1"></div>
+                    <div class="intro-circle-2"></div>
+                    <div class="intro-circle-3"></div>
+                    <div class="intro-circle-4"></div>
+                    <div class="contant3">
+                        <h2 class="">About our company</h2>
+                        <p class="">
+                            You are <span class="highlight">allowed</span> to use Astro Motion HTML Template for your
+                            websites.
+                            You are not allowed to re-distribute this template ZIP file on any Free CSS template collection
+                            website. Illegal redistribution is strongly prohibited.
+                        </p>
+                        <p>
+                            Praesent auctor rhoncus arcu, vitae blandit est vestibulum sit amet. Integer erat
+                            turpis, vestibulum pellentesque aliquam ultricies, finibus nec dui. Donec bibendum
+                            enim mi, at tristique leo feugiat at. Thank you for visiting Template Mo.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- /////////////sectin-four/////////////// -->
+        <!-- /////////////sectin-four/////////////// -->
+        <!-- /////////////sectin-four/////////////// -->
+        <!-- /////////////sectin-four/////////////// -->
+        <section class="selected Contact">
+            <section class="four">
+                <div class="col-md-6 me-0 ms-auto">
+                    <h2 class="mb-4">Contact Us</h2>
+                </div>
+                <div class="col-md-6 tm-contact-left">
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="input-group tm-mb-30">
+                            <input name="name" type="text"
+                                class="form-control rounded-0 border-top-0 border-end-0 border-start-0" placeholder="Name">
+                        </div>
+                        <div class="input-group tm-mb-30">
+                            <input name="email" type="text"
+                                class="form-control rounded-0 border-top-0 border-end-0 border-start-0" placeholder="Email">
+                        </div>
+                        <div class="input-group tm-mb-30">
+                            <textarea rows="5" name="message"
+                                class="textarea form-control rounded-0 border-top-0 border-end-0 border-start-0"
+                                placeholder="Message"></textarea>
+                        </div>
+                        <div class="input-group justify-content-end">
+                            <input type="submit" class="btn btn-primary tm-btn-pad-2" value="Send">
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="col-md-6 tm-contact-right">
+                    <p class="mb-4">
+                        Integer erat turpis, vestibulum pellentesque aliquam
+                        ultricies, finibus nec dui. Donec bibendum enim mi,
+                        at tristique leo feugiat at.
+                    </p>
+                    <div>
+                        Email: <a href="mailto:info@company.com" class="tm-link-white">info@company.com</a>
+                    </div>
+                    <div class="tm-mb-45">
+                        Tel: <a href="tel:0100200340" class="tm-link-white">010-020-0340</a>
+                    </div>
+                    <!-- Map -->
+                    <div class="map-outer">
+                        <div class="gmap-canvas">
+                            <iframe width="100%" height="400" id="gmap-canvas"
+                                src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                    </div>
+            </section>
+        </section>
+    </section>
+
+
+    <!-- ////////////////////////////// -->
+    <!-- ////////////////////////////// -->
+    <!-- ////////////////////////////// -->
+    <!-- ////////////////////////////// -->
+    <!-- ////////////////////////////// -->
+    <!-- ////////////////////////////// -->
+    <script src="js/astro.js"></script>
+    <script>
+        filterSelection("Home")
+        function filterSelection(c) {
+            var x, i;
+            x = document.getElementsByClassName("selected");
+            if (c == "all") c = "";
+
+            // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+
+            for (i = 0; i < x.length; i++) {
+                RemoveClass(x[i], "show");
+                if (x[i].className.indexOf(c) > -1) AddClass(x[i], "show");
+            }
+        }
+
+        function AddClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+            }
+        }
+
+        function RemoveClass(element, name) {
+            var i, arr1, arr2;
+            arr1 = element.className.split(" ");
+            arr2 = name.split(" ");
+            for (i = 0; i < arr2.length; i++) {
+                while (arr1.indexOf(arr2[i]) > -1) {
+                    arr1.splice(arr1.indexOf(arr2[i]), 1);
+                }
+            }
+            element.className = arr1.join(" ");
+        }
+
+        // Add active class to the current control button (highlight it)
+        // var btnContainer = document.getElementById("myBtnContainer");
+        // Add active class to the current button (highlight it)
+        var btns = document.getElementsByClassName("nav-link");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function () {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
+        }
+    </script>
+
+</body>
+</html>
